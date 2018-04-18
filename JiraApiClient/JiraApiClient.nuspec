@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>jira-api-connector</id>
+    <title>Jira Api Connector</title>
+    <description>Client to connect and manage Jira Api</description>
+    <summary>Not much content yet on this package, but the basic functionality is already up and going.</summary>
+    <version>$version$</version>
+    <authors>João Lourenço</authors>
+    <owners>João Lourenço</owners>
+    <tags>jira api client connector</tags>
+    <projectUrl>https://github.com/joaogl/JiraApiConnector</projectUrl>
+    <licenseUrl>https://github.com/joaogl/JiraApiConnector/blob/master/LICENSE</licenseUrl>
+    <copyright>Copyright João Lourenço © 2018</copyright>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <dependencies>
+      <group targetFramework="net452">
+        <dependency id="Newtonsoft.Json" version="10.0.3" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\JiraApiClient.dll" target="lib\net452" />
+  </files>
+</package>
