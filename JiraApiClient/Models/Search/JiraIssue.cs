@@ -12,6 +12,8 @@ namespace JiraApiClient.Models.Search
 
         public int Id { get; set; }
         public string Key { get; set; }
+        public string Expand { get; set; }
+        public string Self { get; set; }
         public JiraFields Fields { get; set; }
 
     }
