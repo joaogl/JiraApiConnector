@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace JiraApiClient.Models.Jira
 {
 
-    public sealed class IssueType
+    public class IssueType
     {
 
         public int Id { get; set; }

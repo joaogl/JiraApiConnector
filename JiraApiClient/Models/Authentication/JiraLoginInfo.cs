@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace JiraApiClient.Models
 {
 
-    public sealed class JiraLoginInfo
+    public class JiraLoginInfo
     {
         public int FailedLoginCount { get; set; }
         public int LoginCount { get; set; }

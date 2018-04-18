@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace JiraApiClient.Models
 {
 
-    public sealed class JiraSession
+    public class JiraSession
     {
         public string Name { get; set; }
         public string Value { get; set; }

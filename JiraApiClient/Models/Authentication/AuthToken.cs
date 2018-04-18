@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace JiraApiClient.Models
 {
 
-    public sealed class AuthToken
+    public class AuthToken
     {
         public JiraSession Session { get; set; }
         public JiraLoginInfo LoginInfo { get; set; }

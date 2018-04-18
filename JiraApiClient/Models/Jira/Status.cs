@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace JiraApiClient.Models.Jira
 {
 
-    public sealed class Status
+    public class Status
     {
 
         public int Id { get; set; }

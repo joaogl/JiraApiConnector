@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace JiraApiClient.Models.Search
 {
 
-    public sealed class JiraFields
+    public class JiraFields
     {
 
         public IssueType IssueType { get; set; }

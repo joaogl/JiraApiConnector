@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace JiraApiClient.Models.Jira
 {
 
-    public sealed class Reporter
+    public class Reporter
     {
 
         public string Self { get; set; }

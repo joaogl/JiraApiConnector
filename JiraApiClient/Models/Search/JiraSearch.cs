@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace JiraApiClient.Models.Search
 {
-    public sealed class JiraSearch
+    public class JiraSearch
     {
         public string Expand { get; set; }
         public int StartAt { get; set; }
