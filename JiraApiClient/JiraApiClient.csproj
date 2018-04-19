@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Agent\AgentBase.cs" />
+    <Compile Include="Agent\SprintAgent.cs" />
     <Compile Include="Agent\SearchAgent.cs" />
     <Compile Include="JiraAPIBase.cs" />
     <Compile Include="JiraWebClient.cs">
@@ -56,6 +57,10 @@
     <Compile Include="Models\Authentication\AuthToken.cs" />
     <Compile Include="Models\Authentication\JiraLoginInfo.cs" />
     <Compile Include="Models\Authentication\JiraSession.cs" />
+    <Compile Include="Models\Jira\CurrentEstimateStatistic.cs" />
+    <Compile Include="Models\Jira\JiraSimplifiedIssue.cs" />
+    <Compile Include="Models\Jira\Sprint.cs" />
+    <Compile Include="Models\Jira\StatFieldValue.cs" />
     <Compile Include="Models\Jira\Status.cs" />
     <Compile Include="Models\Jira\Priority.cs" />
     <Compile Include="Models\Jira\Reporter.cs" />
@@ -63,6 +68,10 @@
     <Compile Include="Models\Search\JiraFields.cs" />
     <Compile Include="Models\Search\JiraIssue.cs" />
     <Compile Include="Models\Search\JiraSearch.cs" />
+    <Compile Include="Models\Sprints\BoardContents.cs" />
+    <Compile Include="Models\Sprints\BoardResult.cs" />
+    <Compile Include="Models\Sprints\SprintIssuesResult.cs" />
+    <Compile Include="Models\Sprints\SprintResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
